@@ -1,0 +1,470 @@
+﻿
+Text;text;Der anzuzeigende Text
+Text;style;Schriftart, -größe, -farbe
+Text;textAlign;Textausrichtung (z.B. TextAlign.center, TextAlign.left, TextAlign.right)
+Text;textDirection;Textrichtung (z.B. TextDirection.ltr, TextDirection.rtl)
+Text;locale;Lokalisierung des Textes
+Text;maxLines;Maximale Anzahl von Zeilen
+Text;overflow;Überlaufverhalten (z.B. TextOverflow.clip, TextOverflow.ellipsis, TextOverflow.fade)
+Text;semanticsLabel;Semantik-Label für den Text
+Text;softWrap;Weiches Umbruchverhalten
+Text;strutStyle;Strut-Stil für den Text
+Text;textHeightBehavior;Verhalten der Textgröße
+Text;textScaleFactor;Skalierungsfaktor für den Text
+Text;;
+Container;child;Das enthaltene Widget
+Container;alignment;Ausrichtung des enthaltenen Widgets
+Container;constraints;Einschränkungen für die Größe des Containers
+Container;decoration;Dekoration des Containers (z.B. BoxDecoration, BoxDecoration border)
+Container;foregroundDecoration;Vordergrund-Dekoration des Containers
+Container;height;Höhe des Containers
+Container;margin;Abstand des Containers
+Container;padding;Innenabstand des Containers
+Container;transform;Transformation des Containers
+Container;width;Breite des Containers
+Container;;
+Row;children;Die enthaltenen Widgets
+Row;crossAxisAlignment;Kreuzausrichtung der Widgets
+Row;mainAxisAlignment;Hauptausrichtung der Widgets
+Row;mainAxisSize;Hauptgröße der Row
+Row;textBaseline;Text-Baseline für die Ausrichtung
+Row;textDirection;Textrichtung für die Ausrichtung
+Row;verticalDirection;Vertikale Richtung der Row
+Row;;
+Column;children;Die enthaltenen Widgets
+Column;crossAxisAlignment;Kreuzausrichtung der Widgets
+Column;mainAxisAlignment;Hauptausrichtung der Widgets
+Column;mainAxisSize;Hauptgröße der Column
+Column;textBaseline;Text-Baseline für die Ausrichtung
+Column;textDirection;Textrichtung für die Ausrichtung
+Column;verticalDirection;Vertikale Richtung der Column
+Column;;
+Stack;children;Die enthaltenen Widgets
+Stack;alignment;Ausrichtung der Widgets
+Stack;fit;Anpassung der Größe der Stack
+Stack;overflow;Überlaufverhalten der Stack
+Stack;textDirection;Textrichtung für die Ausrichtung
+Stack;;
+Positioned;child;Das enthaltene Widget
+Positioned;bottom;Abstand von unten
+Positioned;height;Höhe des Positioned-Widgets
+Positioned;left;Abstand von links
+Positioned;right;Abstand von rechts
+Positioned;top;Abstand von oben
+Positioned;width;Breite des Positioned-Widgets
+Positioned;;
+Align;child;Das enthaltene Widget
+Align;alignment;Ausrichtung des enthaltenen Widgets
+Align;heightFactor;Höhenfaktor für die Ausrichtung
+Align;widthFactor;Breitenfaktor für die Ausrichtung
+Align;;
+Padding;child;Das enthaltene Widget
+Padding;padding;Innenabstand des enthaltenen Widgets
+Padding;;
+Margin;child;Das enthaltene Widget
+Margin;margin;Abstand des enthaltenen Widgets
+Margin;;
+ElevatedButton;child;Der Text des Buttons
+ElevatedButton;autofocus;Autofokus für den Button
+ElevatedButton;clipBehavior;Clip-Verhalten für den Button
+ElevatedButton;enabled;Aktivierung des Buttons
+ElevatedButton;onPressed;Funktion, die beim Klicken aufgerufen wird
+ElevatedButton;style;Stil des Buttons
+ElevatedButton;;
+IconButton;icon;Das Icon des Buttons
+IconButton;autofocus;Autofokus für den Button
+IconButton;clipBehavior;Clip-Verhalten für den Button
+IconButton;color;Farbe des Icons
+IconButton;disabledColor;Farbe des Icons, wenn der Button deaktiviert ist
+IconButton;enabled;Aktivierung des Buttons
+IconButton;highlightColor;Hervorhebungsfarbe des Buttons
+IconButton;hoverColor;Hover-Farbe des Buttons
+IconButton;onPressed;Funktion, die beim Klicken aufgerufen wird
+IconButton;padding;Innenabstand des Buttons
+IconButton;splashColor;Splash-Farbe des Buttons
+IconButton;tooltip;Tooltip-Text für den Button
+IconButton;;
+DropdownButton;items;Die Liste der Optionen
+DropdownButton;autofocus;Autofokus für den Button
+DropdownButton;disabledHint;Hinweis, wenn der Button deaktiviert ist
+DropdownButton;dropdownColor;Farbe des Dropdown-Menüs
+DropdownButton;elevation;Erhabenheit des Dropdown-Menüs
+DropdownButton;enabled;Aktivierung des Buttons
+DropdownButton;hint;Hinweis für den Button
+DropdownButton;isDense;Dichte des Dropdown-Menüs
+DropdownButton;isExpanded;Erweiterung des Dropdown-Menüs
+DropdownButton;onChanged;Funktion, die beim Ändern des Wertes aufgerufen wird
+DropdownButton;style;Stil des Buttons
+DropdownButton;underline;Unterstrich des Buttons
+DropdownButton;value;Der aktuelle Wert
+;;
+Checkbox;value;Der aktuelle Wert
+Checkbox;activeColor;Farbe der aktiven Checkbox
+Checkbox;autofocus;Autofokus für die Checkbox
+Checkbox;checkColor;Farbe des Hakens
+Checkbox;enabled;Aktivierung der Checkbox
+Checkbox;fillColor;Farbe der Checkbox
+Checkbox;focusColor;Farbe der Fokus-Checkbox
+Checkbox;hoverColor;Hover-Farbe der Checkbox
+Checkbox;materialTapTargetSize;Größe der Material-Tap-Ziel-Checkbox
+Checkbox;onChanged;Funktion, die beim Ändern des Wertes aufgerufen wird
+Checkbox;splashRadius;Radius der Splash-Checkbox
+Checkbox;tristate;Dreistufige Checkbox
+;;
+Radio;value;Der aktuelle Wert
+Radio;activeColor;Farbe der aktiven Radio-Button
+Radio;autofocus;Autofokus für die Radio-Button
+Radio;enabled;Aktivierung der Radio-Button
+Radio;fillColor;Farbe der Radio-Button
+Radio;focusColor;Farbe der Fokus-Radio-Button
+Radio;groupValue;Der Wert der Gruppe
+Radio;hoverColor;Hover-Farbe der Radio-Button
+Radio;materialTapTargetSize;Größe der Material-Tap-Ziel-Radio-Button
+Radio;onChanged;Funktion, die beim Ändern des Wertes aufgerufen wird
+Radio;splashRadius;Radius der Splash-Radio-Button
+;;
+Switch;value;Der aktuelle Wert
+Switch;activeColor;Farbe der aktiven Switch
+Switch;activeThumbImage;Bild des aktiven Daumens
+Switch;activeTrackColor;Farbe der aktiven Spur
+Switch;autofocus;Autofokus für die Switch
+Switch;dragStartBehavior;Verhalten beim Starten des Ziehens
+Switch;enabled;Aktivierung der Switch
+Switch;inactiveThumbColor;Farbe des inaktiven Daumens
+Switch;inactiveThumbImage;Bild des inaktiven Daumens
+Switch;inactiveTrackColor;Farbe der inaktiven Spur
+Switch;materialTapTargetSize;Größe der Material-Tap-Ziel-Switch
+Switch;onChanged;Funktion, die beim Ändern des Wertes aufgerufen wird
+Switch;splashRadius;Radius der Splash-Switch
+;;
+Slider;value;Der aktuelle Wert
+Slider;activeColor;Farbe der aktiven Slider
+Slider;autofocus;Autofokus für die Slider
+Slider;divisions;Anzahl der Unterteilungen
+Slider;enabled;Aktivierung der Slider
+Slider;inactiveColor;Farbe der inaktiven Slider
+Slider;label;Beschriftung der Slider
+Slider;max;Maximalwert der Slider
+Slider;min;Minimalwert der Slider
+Slider;onChanged;Funktion, die beim Ändern des Wertes aufgerufen wird
+Slider;onChangeEnd;Funktion, die beim Ende des Änderns des Wertes aufgerufen wird
+Slider;onChangeStart;Funktion, die beim Starten des Änderns des Wertes aufgerufen wird
+;;
+TextField;controller;Der Controller des Textfelds
+TextField;autocorrect;Autokorrektur für das Textfeld
+TextField;autofocus;Autofokus für das Textfeld
+TextField;buildCounter;Funktion, die den Zähler des Textfelds aufbaut
+TextField;cursorColor;Farbe des Cursors
+TextField;cursorHeight;Höhe des Cursors
+TextField;cursorRadius;Radius des Cursors
+TextField;cursorWidth;Breite des Cursors
+TextField;decoration;Dekoration des Textfelds
+TextField;enabled;Aktivierung des Textfelds
+TextField;enableInteractiveSelection;Aktivierung der interaktiven Auswahl
+TextField;enableSuggestions;Aktivierung der Vorschläge
+TextField;expands;Erweiterung des Textfelds
+TextField;focusNode;Fokus-Knoten des Textfelds
+TextField;inputFormatters;Eingabe-Formate des Textfelds
+TextField;keyboardAppearance;Erscheinungsbild der Tastatur
+TextField;keyboardType;Art der Tastatur
+TextField;maxLength;Maximale Länge des Textfelds
+TextField;maxLengthEnforced;Durchsetzung der maximalen Länge
+TextField;minLines;Minimale Anzahl von Zeilen
+TextField;obscureText;Verdeckung des Textes
+TextField;obscuringCharacter;Verdeckungszeichen
+TextField;onChanged;Funktion, die beim Ändern des Textes aufgerufen wird
+TextField;onEditingComplete;Funktion, die beim Abschließen der Bearbeitung aufgerufen wird
+TextField;onSubmitted;Funktion, die beim Übermitteln des Textes aufgerufen wird
+TextField;readOnly;Schreibschutz des Textfelds
+TextField;scrollController;Scroll-Controller des Textfelds
+TextField;scrollPhysics;Scroll-Physik des Textfelds
+TextField;selectionEnabled;Aktivierung der Auswahl
+TextField;showCursor;Anzeige des Cursors
+TextField;style;Stil des Textfelds
+TextField;textAlign;Textausrichtung des Textfelds
+TextField;textAlignVertical;Vertikale Textausrichtung des Textfelds
+TextField;textCapitalization;Großschreibung des Textes
+TextField;textDirection;Textrichtung des Textfelds
+TextField;toolbarOptions;Optionen der Toolbar
+TextField;viewportBoundary;Grenze des Viewports
+;;
+ListView;children;Die enthaltenen Widgets
+ListView;addAutomaticKeepAlives;Hinzufügen von automatischen Keep-Alives
+ListView;addRepaintBoundaries;Hinzufügen von Repaint-Grenzen
+ListView;addSemanticIndexes;Hinzufügen von semantischen Indizes
+ListView;cacheExtent;Cache-Umfang
+ListView;childrenDelegate;Delegat der Kinder
+ListView;clipBehavior;Clip-Verhalten
+ListView;controller;Controller der Liste
+ListView;dragStartBehavior;Verhalten beim Starten des Ziehens
+ListView;itemExtent;Umfang der Elemente
+ListView;keyboardDismissBehavior;Verhalten beim Abbruch der Tastatur
+ListView;padding;Innenabstand der Liste
+ListView;physics;Physik der Liste
+ListView;primary;Primär-Liste
+ListView;reverse;Umkehrung der Liste
+ListView;scrollDirection;Richtung der Scrollbar
+ListView;semanticChildCount;Anzahl der semantischen Kinder
+ListView;shrinkWrap;Schrumpfen der Liste
+;;
+GridView;children;Die enthaltenen Widgets
+GridView;addAutomaticKeepAlives;Hinzufügen von automatischen Keep-Alives
+GridView;addRepaintBoundaries;Hinzufügen von Repaint-Grenzen
+GridView;addSemanticIndexes;Hinzufügen von semantischen Indizes
+GridView;cacheExtent;Cache-Umfang
+GridView;childrenDelegate;Delegat der Kinder
+GridView;clipBehavior;Clip-Verhalten
+GridView;controller;Controller der Gitterliste
+GridView;crossAxisCount;Anzahl der Spalten
+GridView;crossAxisSpacing;Abstand zwischen den Spalten
+GridView;dragStartBehavior;Verhalten beim Starten des Ziehens
+GridView;gridDelegate;Delegat der Gitterliste
+GridView;keyboardDismissBehavior;Verhalten beim Abbruch der Tastatur
+GridView;mainAxisSpacing;Abstand zwischen den Zeilen
+GridView;padding;Innenabstand der Gitterliste
+GridView;physics;Physik der Gitterliste
+GridView;primary;Primär-Gitterliste
+GridView;reverse;Umkehrung der Gitterliste
+GridView;scrollDirection;Richtung der Scrollbar
+GridView;semanticChildCount;Anzahl der semantischen Kinder
+GridView;shrinkWrap;Schrumpfen der Gitterliste
+;;
+TabBar;tabs;Die Tabs
+TabBar;automaticIndicatorColorAdjustment;Automatische Anpassung der Indikatorfarbe
+TabBar;indicator;Indikator der Tabs
+TabBar;indicatorColor;Farbe des Indikators
+TabBar;indicatorSize;Größe des Indikators
+TabBar;indicatorWeight;Gewicht des Indikators
+TabBar;isScrollable;Scrollfähigkeit der Tabs
+TabBar;labelColor;Farbe der Beschriftungen
+TabBar;labelPadding;Innenabstand der Beschriftungen
+TabBar;labelStyle;Stil der Beschriftungen
+TabBar;onTap;Funktion, die beim Tippen aufgerufen wird
+TabBar;overlayColor;Farbe des Overlays
+TabBar;physics;Physik der Tabs
+TabBar;splashFactory;Fabrik der Splash-Effekte
+TabBar;unselectedLabelColor;Farbe der unselektierten Beschriftungen
+TabBar;unselectedLabelStyle;Stil der unselektierten Beschriftungen
+;;
+Drawer;child;Das enthaltene Widget
+Drawer;alignment;Ausrichtung des enthaltenen Widgets
+Drawer;elevation;Erhabenheit des Drawers
+Drawer;enableOpenDragGesture;Aktivierung der Öffnungs-Geste
+Drawer;semanticLabel;Semantik-Label des Drawers
+Drawer;width;Breite des Drawers
+;;
+BottomNavigationBar;items;Die Elemente der Leiste
+BottomNavigationBar;backgroundColor;Hintergrundfarbe der Leiste
+BottomNavigationBar;currentIndex;Aktueller Index der Leiste
+BottomNavigationBar;elevation;Erhabenheit der Leiste
+BottomNavigationBar;enableFeedback;Aktivierung des Feedbacks
+BottomNavigationBar;iconSize;Größe der Icons
+BottomNavigationBar;landscapeLayout;Layout der Leiste im Querformat
+BottomNavigationBar;onTap;Funktion, die beim Tippen aufgerufen wird
+BottomNavigationBar;selectedFontSize;Schriftgröße der selektierten Elemente
+BottomNavigationBar;selectedItemColor;Farbe der selektierten Elemente
+BottomNavigationBar;selectedLabelStyle;Stil der selektierten Beschriftungen
+BottomNavigationBar;showSelectedLabels;Anzeige der selektierten Beschriftungen
+BottomNavigationBar;showUnselectedLabels;Anzeige der unselektierten Beschriftungen
+BottomNavigationBar;type;Typ der Leiste
+BottomNavigationBar;unselectedFontSize;Schriftgröße der unselektierten Elemente
+BottomNavigationBar;unselectedItemColor;Farbe der unselektierten Elemente
+BottomNavigationBar;unselectedLabelStyle;Stil der unselektierten Beschriftungen
+;;
+AlertDialog;title;Der Titel des Dialogs
+AlertDialog;actions;Die Aktionen des Dialogs
+AlertDialog;actionsAlignment;Ausrichtung der Aktionen
+AlertDialog;actionsOverflowAlignment;Ausrichtung der überflüssigen Aktionen
+AlertDialog;actionsOverflowDirection;Richtung der überflüssigen Aktionen
+AlertDialog;backgroundColor;Hintergrundfarbe des Dialogs
+AlertDialog;buttonPadding;Innenabstand der Buttons
+AlertDialog;clipBehavior;Clip-Verhalten des Dialogs
+AlertDialog;content;Der Inhalt des Dialogs
+AlertDialog;contentPadding;Innenabstand des Inhalts
+AlertDialog;contentTextStyle;Stil des Inhalts
+AlertDialog;elevation;Erhabenheit des Dialogs
+AlertDialog;insetPadding;Innenabstand des Dialogs
+AlertDialog;scrollable;Scrollfähigkeit des Dialogs
+AlertDialog;semanticLabel;Semantik-Label des Dialogs
+AlertDialog;shape;Form des Dialogs
+AlertDialog;titlePadding;Innenabstand des Titels
+AlertDialog;titleTextStyle;Stil des Titels
+;;
+CircularProgressIndicator;value;Der aktuelle Wert
+CircularProgressIndicator;backgroundColor;Hintergrundfarbe des Indikators
+CircularProgressIndicator;color;Farbe des Indikators
+CircularProgressIndicator;semanticsLabel;Semantik-Label des Indikators
+CircularProgressIndicator;semanticsValue;Semantik-Wert des Indikators
+CircularProgressIndicator;strokeWidth;Breite des Indikators
+;;
+LinearProgressIndicator;value;Der aktuelle Wert
+LinearProgressIndicator;backgroundColor;Hintergrundfarbe des Indikators
+LinearProgressIndicator;color;Farbe des Indikators
+LinearProgressIndicator;minHeight;Minimale Höhe des Indikators
+LinearProgressIndicator;semanticsLabel;Semantik-Label des Indikators
+LinearProgressIndicator;semanticsValue;Semantik-Wert des Indikators
+;;
+AnimatedBuilder;animation;Die Animation, die den Builder aktualisiert
+AnimatedBuilder;builder;Der Builder, der das Widget aufbaut
+AnimatedBuilder;child;Das enthaltene Widget
+AspectRatio;aspectRatio;Das Seitenverhältnis des Widgets
+AspectRatio;child;Das enthaltene Widget
+Card;child;Das enthaltene Widget
+Card;clipBehavior;Clip-Verhalten der Karte
+Card;color;Farbe der Karte
+Card;elevation;Erhabenheit der Karte
+Card;margin;Abstand der Karte
+Card;shape;Form der Karte
+Chip;avatar;Das Avatar-Bild des Chips
+Chip;backgroundColor;Hintergrundfarbe des Chips
+Chip;deleteIcon;Das Icon zum Löschen des Chips
+Chip;deleteIconColor;Farbe des Icons zum Löschen des Chips
+Chip;enabled;Aktivierung des Chips
+Chip;label;Die Beschriftung des Chips
+Chip;labelPadding;Innenabstand der Beschriftung
+Chip;labelStyle;Stil der Beschriftung
+Chip;onDeleted;Funktion, die beim Löschen des Chips aufgerufen wird
+Chip;padding;Innenabstand des Chips
+Chip;shadowColor;Farbe des Schattens
+Chip;visualDensity;Visuelle Dichte des Chips
+DataTable;border;Die Grenze der Tabelle
+DataTable;columns;Die Spalten der Tabelle
+DataTable;dataRowHeight;Höhe der Datenzeilen
+DataTable;headingRowHeight;Höhe der Kopfzeile
+DataTable;horizontalMargin;Abstand zwischen den Spalten
+DataTable;rows;Die Zeilen der Tabelle
+DataTable;showBottomBorder;Anzeige der unteren Grenze
+DataTable;showCheckboxColumn;Anzeige der Checkbox-Spalte
+DataTable;sortAscending;Sortierung in aufsteigender Reihenfolge
+DataTable;sortColumnIndex;Index der sortierten Spalte
+Divider;color;Farbe des Trenners
+Divider;endIndent;Abstand am Ende des Trenners
+Divider;height;Höhe des Trenners
+Divider;indent;Abstand am Anfang des Trenners
+Divider;thickness;Dicke des Trenners
+ExpansionTile;backgroundColor;Hintergrundfarbe des Expansion-Tiles
+ExpansionTile;canTapOnHeader;Aktivierung des Tipps auf den Header
+ExpansionTile;children;Die Kinder des Expansion-Tiles
+ExpansionTile;initiallyExpanded;Anfangs-Expansion des Expansion-Tiles
+ExpansionTile;leading;Das führende Widget des Expansion-Tiles
+ExpansionTile;onExpansionChanged;Funktion, die beim Ändern der Expansion aufgerufen wird
+ExpansionTile;subtitle;Die Untertitel des Expansion-Tiles
+ExpansionTile;title;Der Titel des Expansion-Tiles
+ExpansionTile;trailing;Das nachfolgende Widget des Expansion-Tiles
+FittedBox;child;Das enthaltene Widget
+FittedBox;fit;Die Anpassung des Widgets
+FittedBox;alignment;Die Ausrichtung des Widgets
+Flexible;child;Das enthaltene Widget
+Flexible;flex;Die Flexibilität des Widgets
+Flexible;fit;Die Anpassung des Widgets
+Flow;children;Die Kinder des Flows
+Flow;clipBehavior;Clip-Verhalten des Flows
+Flow;delegate;Der Delegat des Flows
+Form;child;Das enthaltene Widget
+Form;autovalidateMode;Der Modus der automatischen Validierung
+Form;initialValue;Der Anfangswert des Formulars
+Form;key;Der Schlüssel des Formulars
+Form;onChanged;Funktion, die beim Ändern des Formulars aufgerufen wird
+Form;onWillPop;Funktion, die beim Verlassen des Formulars aufgerufen wird
+Form;validator;Der Validator des Formulars
+FractionallySizedBox;alignment;Die Ausrichtung des Widgets
+FractionallySizedBox;child;Das enthaltene Widget
+FractionallySizedBox;factor;Der Faktor der Größe des Widgets
+GestureDetector;child;Das enthaltene Widget
+GestureDetector;behavior;Das Verhalten des Gesten-Detektors
+GestureDetector;dragStartBehavior;Das Verhalten beim Starten des Ziehens
+GestureDetector;onDoubleTap;Funktion, die beim Doppel-Tippen aufgerufen wird
+GestureDetector;onForcePressEnd;Funktion, die beim Ende des Kraft-Drückens aufgerufen wird
+GestureDetector;onForcePressPeak;Funktion, die beim Höhepunkt des Kraft-Drückens aufgerufen wird
+GestureDetector;onForcePressStart;Funktion, die beim Starten des Kraft-Drückens aufgerufen wird
+GestureDetector;onForcePressUpdate;Funktion, die beim Aktualisieren des Kraft-Drückens aufgerufen wird
+GestureDetector;onHorizontalDragCancel;Funktion, die beim Abbruch des horizontalen Ziehens aufgerufen wird
+GestureDetector;onHorizontalDragDown;Funktion, die beim Starten des horizontalen Ziehens aufgerufen wird
+GestureDetector;onHorizontalDragEnd;Funktion, die beim Ende des horizontalen Ziehens aufgerufen wird
+GestureDetector;onHorizontalDragStart;Funktion, die beim Starten des horizontalen Ziehens aufgerufen wird
+GestureDetector;onHorizontalDragUpdate;Funktion, die beim Aktualisieren des horizontalen Ziehens aufgerufen wird
+GestureDetector;onLongPress;Funktion, die beim Lang-Drücken aufgerufen wird
+GestureDetector;onLongPressDraggable;Funktion, die beim Ziehen nach dem Lang-Drücken aufgerufen wird
+GestureDetector;onLongPressEnd;Funktion, die beim Ende des Lang-Drückens aufgerufen wird
+GestureDetector;onLongPressMoveUpdate;Funktion, die beim Aktualisieren des Lang-Drückens aufgerufen wird
+GestureDetector;onPanCancel;Funktion, die beim Abbruch des Schwenkens aufgerufen wird
+GestureDetector;onPanDown;Funktion, die beim Starten des Schwenkens aufgerufen wird
+GestureDetector;onPanEnd;Funktion, die beim Ende des Schwenkens aufgerufen wird
+GestureDetector;onPanStart;Funktion, die beim Starten des Schwenkens aufgerufen wird
+GestureDetector;onPanUpdate;Funktion, die beim Aktualisieren des Schwenkens aufgerufen wird
+GestureDetector;onScaleEnd;Funktion, die beim Ende des Skalierens aufgerufen wird
+GestureDetector;onScaleStart;Funktion, die beim Starten des Skalierens aufgerufen wird
+GestureDetector;onScaleUpdate;Funktion, die beim Aktualisieren des Skalierens aufgerufen wird
+GestureDetector;onSecondaryLongPress;Funktion, die beim sekundären Lang-Drücken aufgerufen wird
+GestureDetector;onSecondaryTap;Funktion, die beim sekundären Tippen aufgerufen wird
+GestureDetector;onSecondaryTapCancel;Funktion, die beim Abbruch des sekundären Tippens aufgerufen wird
+GestureDetector;onSecondaryTapDown;Funktion, die beim Starten des sekundären Tippens aufgerufen wird
+GestureDetector;onSecondaryTapUp;Funktion, die beim Ende des sekundären Tippens aufgerufen wird
+GestureDetector;onTap;Funktion, die beim Tippen aufgerufen wird
+GestureDetector;onTapCancel;Funktion, die beim Abbruch des Tippens aufgerufen wird
+GestureDetector;onTapDown;Funktion, die beim Starten des Tippens aufgerufen wird
+GestureDetector;onTapUp;Funktion, die beim Ende des Tippens aufgerufen wird
+GestureDetector;onVerticalDragCancel;Funktion, die beim Abbruch des vertikalen Ziehens aufgerufen wird
+GestureDetector;onVerticalDragDown;Funktion, die beim Starten des vertikalen Ziehens aufgerufen wird
+GestureDetector;onVerticalDragEnd;Funktion, die beim Ende des vertikalen Ziehens aufgerufen wird
+GestureDetector;onVerticalDragStart;Funktion, die beim Starten des vertikalen Ziehens aufgerufen wird
+GestureDetector;onVerticalDragUpdate;Funktion, die beim Aktualisieren des vertikalen Ziehens aufgerufen wird
+Hero;child;Das enthaltene Widget
+Hero;createRectTween;Die Funktion, die den Rechteck-Tween erstellt
+Hero;flightShuttleBuilder;Der Builder des Flug-Shuttles
+Hero;placeholderBuilder;Der Builder des Platzhalters
+Hero;tag;Der Tag des Heroes
+Hero;transitionOnUserGestures;Die Transition auf Benutzer-Gesten
+Icon;color;Die Farbe des Icons
+Icon;icon;Das Icon
+Icon;semanticLabel;Die semantische Beschriftung des Icons
+Icon;size;Die Größe des Icons
+Icon;textDirection;Die Textrichtung des Icons
+IndexedStack;alignment;Die Ausrichtung des Indexed-Stacks
+IndexedStack;children;Die Kinder des Indexed-Stacks
+IndexedStack;index;Der Index des Indexed-Stacks
+IndexedStack;sizing;Die Größenanpassung des Indexed-Stacks
+IndexedStack;textDirection;Die Textrichtung des Indexed-Stacks
+IntrinsicHeight;child;Das enthaltene Widget
+IntrinsicWidth;child;Das enthaltene Widget
+IntrinsicWidth;stepHeight;Die Schritt-Höhe des Intrinsic-Width
+IntrinsicWidth;stepWidth;Die Schritt-Breite des Intrinsic-Width
+LimitedBox;child;Das enthaltene Widget
+LimitedBox;maxHeight;Die maximale Höhe des Limited-Box
+LimitedBox;maxWidth;Die maximale Breite des Limited-Box
+ListTile;contentPadding;Der Innenabstand des List-Tiles
+ListTile;dense;Die Dichte des List-Tiles
+ListTile;enabled;Die Aktivierung des List-Tiles
+ListTile;isThreeLine;Die Anzeige von drei Zeilen
+ListTile;leading;Das führende Widget des List-Tiles
+ListTile;minLeadingWidth;Die minimale Breite des führenden Widgets
+ListTile;minVerticalPadding;Der minimale vertikale Innenabstand
+ListTile;onLongPress;Die Funktion, die beim Lang-Drücken aufgerufen wird
+ListTile;onTap;Die Funktion, die beim Tippen aufgerufen wird
+ListTile;selected;Die Auswahl des List-Tiles
+ListTile;selectedTileColor;Die Farbe des selektierten List-Tiles
+ListTile;shape;Die Form des List-Tiles
+ListTile;style;Der Stil des List-Tiles
+ListTile;subtitle;Die Untertitel des List-Tiles
+ListTile;title;Der Titel des List-Tiles
+ListTile;trailing;Das nachfolgende Widget des List-Tiles
+ListTile;visualDensity;Die visuelle Dichte des List-Tiles
+NestedScrollView;body;Der Körper des Nested-Scroll-Views
+NestedScrollView;controller;Der Controller des Nested-Scroll-Views
+NestedScrollView;dragStartBehavior;Das Verhalten beim Starten des Ziehens
+NestedScrollView;headerSliverBuilder;Der Builder des Header-Slivers
+NestedScrollView;innerScrollPositionKeyBuilder;Der Builder des inneren Scroll-Positions-Schlüssels
+NestedScrollView;onScrollNotification;Die Funktion, die beim Scrollen aufgerufen wird
+NestedScrollView;physics;Die Physik des Nested-Scroll-Views
+NestedScrollView;scrollDirection;Die Richtung der Scrollbar
+NotificationListener;child;Das enthaltene Widget
+NotificationListener;onNotification;Die Funktion, die beim Empfangen einer Benachrichtigung aufgerufen wird
+OrientationBuilder;builder;Der Builder des Orientation-Builders
+OrientationBuilder;child;Das enthaltene Widget
+Padding;child;Das enthaltene Widget
+Padding;padding;Der Innenabstand des Paddings
+Placeholder;child;Das enthaltene Widget
+Placeholder;color;Die Farbe des Platzhalters
+Placeholder;fallbackHeight;Die Höhe des Platzhalters
+Placeholder;fallbackWidth;Die Breite des Platzhalters
+Placeholder;strokeWidth;Die Breite des Strichs
