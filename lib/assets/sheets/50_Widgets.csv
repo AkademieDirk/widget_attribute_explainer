@@ -188,6 +188,33 @@ TextField;textDirection;Textrichtung des Textfelds
 TextField;toolbarOptions;Optionen der Toolbar
 TextField;viewportBoundary;Grenze des Viewports
 ;;
+TextFormField;controller;Ein TextEditingController, der den Text des Textfelds verwaltet und verändert.
+TextFormField;focusNode;Ein FocusNode, der den Fokus des Textfelds verwaltet.
+TextFormField;decoration;Eine InputDecoration, die die visuelle Darstellung des Textfelds definiert.
+TextFormField;keyboardType;Bestimmt die Art der Tastatur (z.B. TextInputType.text, TextInputType.number).
+TextFormField;textInputAction;Bestimmt die Aktion auf der Tastatur (z.B. "Done", "Next", "Search").
+TextFormField;validator;Eine Validierungsfunktion, die den Text überprüft und eine Fehlermeldung zurückgibt.
+TextFormField;onChanged;Eine Callback-Funktion, die bei jeder Änderung des Textes im Textfeld aufgerufen wird.
+TextFormField;onSaved;Eine Funktion, die den Text speichert, wenn das Formular gespeichert wird.
+TextFormField;initialValue;Der initiale Textwert des Textfelds beim Laden.
+TextFormField;autofocus;Gibt an, ob das Textfeld automatisch den Fokus beim Laden der Seite erhalten soll.
+TextFormField;enabled;Bestimmt, ob das Textfeld aktiviert oder deaktiviert ist.
+TextFormField;obscureText;Gibt an, ob der Text im Textfeld maskiert werden soll (z.B. für Passwörter).
+TextFormField;maxLines;Maximale Anzahl von Zeilen, die das Textfeld anzeigen kann.
+TextFormField;minLines;Minimale Anzahl von Zeilen, die das Textfeld anzeigen kann.
+TextFormField;maxLength;Maximale Anzahl von Zeichen, die der Benutzer eingeben kann.
+TextFormField;onFieldSubmitted;Eine Funktion, die ausgeführt wird, wenn der Benutzer das Textfeld abschickt (z.B. durch Drücken der Enter-Taste).
+TextFormField;cursorColor;Die Farbe des Cursors im Textfeld.
+TextFormField;cursorWidth;Die Breite des Cursors im Textfeld.
+TextFormField;cursorHeight;Die Höhe des Cursors im Textfeld.
+TextFormField;textAlign;Bestimmt die horizontale Ausrichtung des Textes (z.B. TextAlign.left, TextAlign.center).
+TextFormField;textCapitalization;Bestimmt die Großschreibung des Textes (z.B. TextCapitalization.sentences).
+TextFormField;style;Bestimmt den Stil des Textes (z.B. Schriftart, Größe, Farbe).
+TextFormField;showCursor;Gibt an, ob der Cursor im Textfeld angezeigt werden soll.
+TextFormField;inputFormatters;Eine Liste von Eingabeformatierern, die verwendet werden, um die Eingabe zu formatieren.
+TextFormField;readOnly;Bestimmt, ob das Textfeld nur zum Lesen ist und keine Eingabe ermöglicht.
+TextFormField;textAlignVertical;Bestimmt die vertikale Ausrichtung des Textes innerhalb des Textfelds.
+TextFormField;autocorrect;Gibt an, ob die Autokorrektur im Textfeld aktiviert ist.
 ListView;children;Die enthaltenen Widgets
 ListView;addAutomaticKeepAlives;Hinzufügen von automatischen Keep-Alives
 ListView;addRepaintBoundaries;Hinzufügen von Repaint-Grenzen
